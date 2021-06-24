@@ -21,6 +21,6 @@ n = [0] * 7
 for i in range(10000):
     n[rand7()-1] += 1
 
-for i,v in enumerate(n):
-    print("{} => {}".format(i+1,v))
+for i,v in enumerate(n,start=1):
+    print("{} => {}".format(i,v))
 
